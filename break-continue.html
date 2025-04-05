@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+  for(i=1;i<=10;i++){
+    // console.log(i)
+  }
+
+
+// <-----break----->
+        for(i=1;i<=10;i++){
+            // console.log(i)
+            if(i==5){
+                break;
+            }
+        }
+
+
+// <-----continue----->
+        for(i=1;i<=10;i++){
+            if(i<=5){
+                continue;
+            }
+            // console.log(i)
+        }
+
+
+
+        let newBatch = ['Surjeet','Gaurav','Ajay','Sweta','Aman','Viren','Shivani','Alankan']
+
+for(i=0;i<newBatch.length;i++){
+    // if(i>3){
+    //     break
+    // }
+    // console.log(newBatch[i])
+    if(i<=3){
+        continue;
+    }
+    console.log(newBatch[i])
+   
+}
+
+
+    </script>
+</body>
+</html>

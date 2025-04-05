@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do  </title>
+</head>
+<body>
+   <script>
+     //Create a new array called "citrusFruits" and populate it with only the citrus fruits from the "fruits" array. (Hint: Use a loop and conditional statements to filter the citrus fruits.)
+
+
+     let fruits = ['Orange','Mango','Apple','Carry','Banana','Green Apple','Pine Apple']
+
+     let citrus =[]
+
+     for(i=0;i<fruits.length;i++){
+        if(fruits[i]=='Orange' || fruits[i]=='Carry' || fruits[i]=='Green Apple' || fruits[i]=='Pine Apple' ){
+            citrus.push(fruits[i])
+
+     }
+    }
+
+    console.log(citrus)
+
+
+
+    let f =[{type:'citrus',name:'Orange'},{type:'citrus',name:'Carry'},{type:'sweet',name:'Apple'},{type:'sweet',name:'Mango'}]
+
+
+     f.forEach(function(obj,index){{
+     if(obj.type=='citrus'){
+     console.log(obj.name)
+     }
+    }})
+   </script>
+</body>
+</html> 
