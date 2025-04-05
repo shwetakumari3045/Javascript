@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+   
+    <script>
+
+        function countVowels(string){
+            let count = 0
+            for(i=0;i<string.length;i++){
+                if(string[i]=="a" || string[i]=="e" || string[i]=="i" ||string[i]=="o" ||string[i]=="u"  ){
+                    count++
+                }
+            }   
+            console.log(`The number of vowels in this pragraph is ${count}`)
+        }
+
+        countVowels('There are many students who are taking the js class 3rd time!')
+    </script>
+</body>
+</html>
