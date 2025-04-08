@@ -1,0 +1,23 @@
+<script>
+    let s = "this is totally timewaste?"
+    
+    let p = s.split(" ")
+
+    //["why","this","colavery","D"]
+
+    let result = ""
+
+    for(i=0;i<p.length;i++){
+        let q = p[i] //string
+        q = q.split("")
+
+        q[0] = q[0].toUpperCase() 
+   
+        q = q.join("")
+       result =result + " " +  q
+    }
+
+    console.log(result)
+
+
+</script>
